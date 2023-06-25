@@ -1,0 +1,23 @@
+:root{
+  --blue-primary: #0065FE;
+  --neutral-white: #fff;
+  --text-black: #141414;
+  --dark-gradient: linear-gradient(180deg, #1E3448 99.99%, rgba(30, 52, 72, 0.00) 100%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "poppins", sans-serif;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 100px;
+  color: var(--neutral-white);
+  background-color: var(--blue-primary);
+}
