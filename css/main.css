@@ -52,6 +52,7 @@ body {
 .flx {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
 .hero h1 {
@@ -117,11 +118,11 @@ body {
 }
 .possibility-card {
   display: flex;
-  padding: 60px 140px;
+  padding: 60px 0px;
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 0 auto;
 
 }
@@ -146,10 +147,40 @@ body {
   font-size: 14px;
 }
 
+.reasons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 ul li a {
   color: var(--text-black);
 }
 
+.why-card{
+  display: flex;
+  gap: 96px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.why {
+  max-width: 300px;
+}
+.why h2 {
+  font-family: var(--bold-font);
+}
+
+.why p {
+  padding-left: 24px;
+}
+
+.why-card p {
+ color: var(--text-black);
+ font-size: 16px;
+ line-height: 28px;
+ font-family: var(--medium-font);
+}
 .wrapper {
   max-width: 1150px;
   margin: 0 auto;
